@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/german-flag.jpeg') {
-      myImage.setAttribute('src','images/german-scenery.png');
+    if(mySrc === 'german-flag.jpeg') {
+      myImage.setAttribute('src','german-scenery.png');
     } else {
-      myImage.setAttribute('src','images/german-flag.jpeg');
+      myImage.setAttribute('src','german-flag.jpeg');
     }
 }
 let myButton = document.querySelector('button');
